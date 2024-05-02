@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1295</width>
+    <height>733</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="loadButton_2">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>30</y>
+      <width>251</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(167, 127, 215);
+font: 63 17pt &quot;Segoe UI Variable Display Semib&quot;;
+border-radius:20px;
+
+}
+QPushButton:pressed{
+background-color: rgb(188, 188, 188);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>LOAD EXCEL FILE</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>100</y>
+      <width>641</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;Sans Serif Collection&quot;;
+background-color: rgba(0, 0, 0,0);
+color: rgb(0, 0, 0);
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="statusLabel">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>120</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="publish">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>510</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(255, 147, 189);
+	font: 63 17pt &quot;Segoe UI Variable Display Semib&quot;;
+border-radius:20px;
+
+}
+QPushButton:pressed{
+background-color: rgb(188, 188, 188);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>SAVE QUESTIONS</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-40</x>
+      <y>-40</y>
+      <width>1341</width>
+      <height>731</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../WhatsApp Image 2024-03-21 at 2.10.45 PM.jpeg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>statusLabel</zorder>
+   <zorder>label</zorder>
+   <zorder>loadButton_2</zorder>
+   <zorder>tableWidget</zorder>
+   <zorder>publish</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1341</width>
+    <height>704</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 224, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>30</y>
+      <width>1041</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(87, 25, 100);
+border-radius:15px;
+border-radius: 12px;
+border: 2px solid rgb(191, 0, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="question">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>40</y>
+      <width>941</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>8765</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(71, 12, 95);
+font: 32pt &quot;Sitka Display&quot;;
+color:rgb(255, 255, 255);
+border-radius: 12px;
+border: 1px solid rgb(171, 87, 255);
+padding-top:120px;
+padding-left:290px;
+</string>
+    </property>
+    <property name="placeholderText">
+     <string>Type your question here </string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="ans2">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>380</y>
+      <width>221</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(129, 191, 187);
+font: 75 12pt &quot;Sitka Display&quot;;
+border-radius: 12px;
+padding-top:85px;
+padding-left:20px;
+color:rgb(255, 255, 255);</string>
+    </property>
+    <property name="placeholderText">
+     <string>Type answer option here</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="ans1">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>380</y>
+      <width>231</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(85, 85, 255);
+font: 75 12pt &quot;Sitka Display&quot;;
+border-radius: 12px;
+padding-top:85px;
+padding-left:20px;
+color:rgb(255, 255, 255);</string>
+    </property>
+    <property name="placeholderText">
+     <string>Type answer option here</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="ans3">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>380</y>
+      <width>231</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(223, 189, 64);
+font: 75 12pt &quot;Sitka Display&quot;;
+border-radius: 12px;
+padding-top:85px;
+padding-left:20px;
+color:rgb(255, 255, 255);</string>
+    </property>
+    <property name="placeholderText">
+     <string>Type answer option here</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="ans4">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>380</y>
+      <width>231</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(255, 123, 143);
+font: 75 12pt &quot;Sitka Display&quot;;
+border-radius: 12px;
+padding-top:85px;
+padding-left:20px;
+color:rgb(255, 255, 255);</string>
+    </property>
+    <property name="placeholderText">
+     <string>Type answer option here</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="savebtn">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>100</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 15pt &quot;Sitka Display&quot;;
+background-color:rgb(185, 87, 255);
+border-radius: 8px;</string>
+    </property>
+    <property name="text">
+     <string>Save Questions</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="savebtn_2">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>50</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 15pt &quot;Sitka Display&quot;;
+background-color:rgb(185, 87, 255);
+border-radius: 8px;</string>
+    </property>
+    <property name="text">
+     <string>Add Questions</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color:rgb(197, 201,255);
+font: 63 12pt &quot;Segoe UI Variable Small Semibol&quot;;
+border-radius: 16px;
+}
+QPushButton:pressed{
+
+background-color: rgb(209, 199, 199);
+}</string>
+    </property>
+    <property name="text">
+     <string>BACK</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>390</y>
+      <width>191</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(85, 85, 255);
+font: 75 12pt &quot;Sitka Display&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Pick the correct option</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_2">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>390</y>
+      <width>191</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(129, 191, 187);
+font: 75 12pt &quot;Sitka Display&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Pick the correct option</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_3">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>390</y>
+      <width>191</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(223, 189, 64);
+font: 75 12pt &quot;Sitka Display&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Pick the correct option</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_4">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>390</y>
+      <width>191</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(255, 123, 143);
+font: 75 12pt &quot;Sitka Display&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Pick the correct option</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>0</y>
+      <width>1381</width>
+      <height>781</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>41</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-color:rgb(197, 201,255);
+font: 63 19pt &quot;Segoe UI Variable Small Semibol&quot;;
+border-radius: 16px;
+padding left: 45px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>pushButton</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label</zorder>
+   <zorder>question</zorder>
+   <zorder>savebtn</zorder>
+   <zorder>savebtn_2</zorder>
+   <zorder>ans1</zorder>
+   <zorder>ans2</zorder>
+   <zorder>ans3</zorder>
+   <zorder>ans4</zorder>
+   <zorder>radioButton</zorder>
+   <zorder>radioButton_2</zorder>
+   <zorder>radioButton_3</zorder>
+   <zorder>radioButton_4</zorder>
+   <zorder>label_3</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1341</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

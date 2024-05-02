@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1429</width>
+    <height>733</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="next_button">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>540</y>
+      <width>881</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(255, 170, 255);
+font: 75 12pt &quot;Sitka Display&quot;;
+border-radius: 10px;
+}
+QPushButton:pressed{
+
+background-color: rgb(209, 199, 199);
+}</string>
+    </property>
+    <property name="text">
+     <string>Next</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="option4_button">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>360</y>
+      <width>201</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color:rgb(255, 123, 143);
+font: 75 12pt &quot;Sitka Display&quot;;
+border-radius: 12px;
+}
+QPushButton:pressed{
+
+background-color: rgb(209, 199, 199);
+}</string>
+    </property>
+    <property name="text">
+     <string>Option 4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="option3_button">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>360</y>
+      <width>201</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color:rgb(223, 189, 64);
+font: 75 12pt &quot;Sitka Display&quot;;
+border-radius: 12px;
+}
+QPushButton:pressed{
+
+background-color: rgb(209, 199, 199);
+}</string>
+    </property>
+    <property name="text">
+     <string>Option 3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="option2_button">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>360</y>
+      <width>201</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color:rgb(129, 191, 187);
+font: 75 12pt &quot;Sitka Display&quot;;
+border-radius: 12px;
+}
+QPushButton:pressed{
+
+background-color: rgb(209, 199, 199);
+}</string>
+    </property>
+    <property name="text">
+     <string>Option 2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="option1_button">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>360</y>
+      <width>201</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color:rgb(85, 85, 255);
+font: 75 12pt &quot;Sitka Display&quot;;
+border-radius: 12px;
+}
+QPushButton:pressed{
+
+background-color: rgb(209, 199, 199);
+}</string>
+    </property>
+    <property name="text">
+     <string>Option 1</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="question_label">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>100</y>
+      <width>871</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(71, 12, 95);
+font: 32pt &quot;Sitka Display&quot;;
+color:rgb(255, 255, 255);
+border-radius: 12px;
+border: 1px solid rgb(171, 87, 255);
+padding-top:120px;
+padding-left:50px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>60</y>
+      <width>971</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(87, 25, 100);
+border-radius:15px;
+border-radius: 19px;
+border: 2px solid rgb(191, 0, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>370</y>
+      <width>141</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Option 1</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_2">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>370</y>
+      <width>62</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Option 2</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_3">
+    <property name="geometry">
+     <rect>
+      <x>690</x>
+      <y>370</y>
+      <width>62</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Option 3</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButton_4">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>370</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Option 4</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>90</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 200 50pt &quot;Sitka Display&quot;;
+border-radius: 12px;
+background-color: rgba(0, 0, 0,0);
+color: rgb(255, 255, 255);
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-80</y>
+      <width>1541</width>
+      <height>811</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../WhatsApp Image 2024-03-21 at 8.13.11 PM - Copy.jpeg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>label_4</zorder>
+   <zorder>label</zorder>
+   <zorder>question_label</zorder>
+   <zorder>next_button</zorder>
+   <zorder>option2_button</zorder>
+   <zorder>option1_button</zorder>
+   <zorder>option4_button</zorder>
+   <zorder>option3_button</zorder>
+   <zorder>radioButton</zorder>
+   <zorder>radioButton_2</zorder>
+   <zorder>radioButton_3</zorder>
+   <zorder>radioButton_4</zorder>
+   <zorder>label_2</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
